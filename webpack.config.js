@@ -2,7 +2,8 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-  entry: path.join(__dirname, "src", "index.js"),
+  /* babel-polyfill here is needed so that async/await can be used in any file */
+  entry: ["babel-polyfill", path.join(__dirname, "src", "index.js")],
   module: {
     rules: [
       {

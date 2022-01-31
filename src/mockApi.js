@@ -1,3 +1,5 @@
+// HttpRequestMock is loaded globally on the page.
+
 const mocker = HttpRequestMock.setup();
 
 /**
@@ -74,61 +76,6 @@ const mockApi = () => {
       rating: 97,
     },
   ]);
-
-  mocker.get("/author/1", {
-    name: "Mariah Carey",
-    id: 1,
-  });
-
-  mocker.get("/author/2", {
-    name: "Kevin Young",
-    id: 2,
-  });
-
-  mocker.get("/author/3", {
-    name: "Brit Bennett",
-    id: 3,
-  });
-
-  mocker.get("/author/4", {
-    name: "Mieko Kawakami",
-    id: 4,
-  });
-
-  mocker.get("/author/5", {
-    name: "Maria Dahvana Headley",
-    id: 5,
-  });
-
-  mocker.get("/author/6", {
-    name: "Anna Wiener",
-    id: 6,
-  });
-
-  mocker.get("/author/7", {
-    name: "Megha Majumdar",
-    id: 7,
-  });
-
-  mocker.get("/author/8", {
-    name: "Claudio Saunt",
-    id: 8,
-  });
-
-  mocker.get("/author/9", {
-    name: "Adania Shibli ",
-    id: 9,
-  });
-
-  mocker.get("/author/10", {
-    name: "Herman Melville ",
-    id: 10,
-  });
-
-  mocker.get("/author/11", {
-    name: "Emily St. John Mandel",
-    id: 11,
-  });
 };
 
 export default mockApi;
