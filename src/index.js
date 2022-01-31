@@ -30,7 +30,7 @@ then make it sortable
 Next up after this is ./phase-2-directions.md
 */
 const App = () => {
-  return <h1>GOOD READS BITCH</h1>;
+  return <h1>GOOD READS</h1>;
 };
 
 ReactDOM.render(<App />, document.getElementById("root"));

@@ -1,6 +1,6 @@
 ### GOOD READS VERSION 2
 
-The company hired someone named "DJ" and he has new ideas about how the app should behave:
+New designer!
 
 FIRST OFF THE DESIGN HAS CHANGED
 https://drive.google.com/file/d/1x91VxLvTaQC6psIry9JvdeiaVuBwI0q_/view?usp=sharing
