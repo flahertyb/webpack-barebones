@@ -26,9 +26,11 @@ then make it sortable
  - by default, the table should be sorted by rating
  - if the user clicks on the "books" header, the table should be sorted by title
  - if the user clicks on the "rating" header, the table should be sorted by rating
+
+Next up after this is ./phase-2-directions.md
 */
 const App = () => {
-  return <h1 onClick={callMe}>GOOD READS BITCH</h1>;
+  return <h1>GOOD READS BITCH</h1>;
 };
 
 ReactDOM.render(<App />, document.getElementById("root"));
